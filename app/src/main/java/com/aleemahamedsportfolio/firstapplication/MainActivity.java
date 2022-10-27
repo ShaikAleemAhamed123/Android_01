@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity{
@@ -30,10 +31,10 @@ public class MainActivity extends AppCompatActivity{
                 Log.v("CLICKED","Button2 Clicked !");
             }
         });
-        Button home= findViewById(R.id.homeButton);
+        FloatingActionButton home= findViewById(R.id.homeButton);
         home.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Toast.makeText(MainActivity.this,getString(R.string.receive_message), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,getString(R.string.home_button), Toast.LENGTH_SHORT).show();
                 Log.v("CLICKED","Home Button Clicked !");
             }
         });

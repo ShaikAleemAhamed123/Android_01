@@ -3,4 +3,5 @@
     <string name="send_message">Sent Successfully !</string>
     <string name="receive_message">Received Successfully !</string>
     <string name="delete_message">Delete Succeed !</string>
+    <string name="home_button">Go Home !</string>
 </resources>
